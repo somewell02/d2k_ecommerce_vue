@@ -1,0 +1,39 @@
+:root {
+
+}
+
+html {
+  font-family: "GothamPro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  margin:0;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding:0;
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+}
+
+table {
+  margin: 0;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}

@@ -1,5 +1,5 @@
 <template>
-  <div>{{ this.$t("title") }}</div>
+  <main></main>
 </template>
 
 <script>

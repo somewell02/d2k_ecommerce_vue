@@ -1,14 +1,14 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 
-// import router from "./router/router";
-// import store from "./data/store/vuex";
+import router from "./router/router";
+import store from "./data/store/vuex";
 
 // import DefaultComponents from "./components/default";
 // import Images from "./assets/img/img";
-// import Directives from "./services/directives/directives";
+import Directives from "./services/directives/directives";
 
-//import "./assets/scss/index.scss";
+import "./assets/scss/index.scss";
 
 import i18n from "@/locales/i18n";
 
@@ -22,8 +22,8 @@ const app = createApp(App);
 //     app.component(img.name, img);
 // });
 //
-// Directives.forEach((directive) => {
-//     app.directive(directive.name, directive);
-// });
+Directives.forEach((directive) => {
+    app.directive(directive.name, directive);
+});
 
-app.use(i18n).mount("#app");
+app.use(store).use(router).use(i18n).mount("#app");
