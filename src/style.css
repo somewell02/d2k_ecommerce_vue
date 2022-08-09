@@ -1314,37 +1314,8 @@ body::-webkit-scrollbar-track {
 .variations_form.cart .qib-container {
 	display:none!important;
 }
-.cart .single_add_to_cart_button,
-.product_content_left .product_show_more {
-	margin-left:0!important;
-	background: #CCBB9B;
-	border-radius: 5px;
-	border:none;
-	outline: none;
-	font-size: 18px;
-	font-weight: 400;
-	color:white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height:50px!important;
-	width: 100%;
-	max-width: 365px;
-	margin-top:25px!important;
-	cursor: pointer;
-	transition:0.2s;
-}
-.cart .single_add_to_cart_button:focus,
-.cart .single_add_to_cart_button:active {
-	outline:none!important;
-	border:0!important;
-}
+
 @media (min-width:800px) {
-	.cart .single_add_to_cart_button:hover,
-	.product_content_left .product_show_more:hover {
-		color: black;
-		background:white;
-	}
 	.product_content_left .product_show_more:hover img {
 		filter: invert(100%);
 	}
@@ -1479,31 +1450,6 @@ body::-webkit-scrollbar-track {
 }
 
 
-.delivery_and_refund {
-	display:flex;
-	align-items:center;
-	justify-content: center;
-	text-decoration: none;
-	width:90vw;
-	max-width:300px;
-	height:40px;
-	font-size:12px;
-	font-weight:400;
-	line-height:1;
-	background: #F7F7F7;
-	margin-top:30px;
-	transition:0.2s;
-}
-.delivery_and_refund img {
-	width:22px;
-	height:22px;
-	margin-right:10px;
-}
-@media (min-width:800px) {
-	.delivery_and_refund:hover {
-		background: #d4d4d4;
-	}
-}
 .pswp__caption {
 	display:none;
 }
@@ -1885,24 +1831,6 @@ body::-webkit-scrollbar-track {
 }
 .woocommerce-cart-form .cart-collaterals .cart_totals .wc-proceed-to-checkout {
 	margin-top:20px;
-}
-.woocommerce-cart-form .cart-collaterals .cart_totals .wc-proceed-to-checkout .checkout-button {
-	width:100%;
-	height: 45px;
-	background: #355D49;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	color: white;
-	line-height: 1;
-	font-weight: 300;
-}
-@media (min-width:800px) {
-	.woocommerce-cart-form .cart-collaterals .cart_totals .wc-proceed-to-checkout .checkout-button:hover,
-	.coupon .coupon_div button:hover {
-		background: #71ad90;
-	}
 }
 .woocommerce-cart-form .cart-collaterals .cart_totals .wc-proceed-to-checkout .delivery_and_refund {
 	margin-top:20px;
@@ -2518,16 +2446,6 @@ body::-webkit-scrollbar-track {
 .checkout_wrapper .woocommerce-billing-fields__field-wrapper .form-row:not(:last-child) {
 	margin-bottom:20px;
 }
-.checkout_wrapper .woocommerce-billing-fields__field-wrapper .form-row input {
-	width:100%;
-	border-radius: 0;
-	border:1px solid #355D49;
-	background: none;
-	outline: none;
-	padding:14px 22px;
-	font-size:14px;
-	color:black;
-}
 .checkout_wrapper .woocommerce-billing-fields__field-wrapper .form-row.woocommerce-invalid input {
 	border:1px solid #dc3232;
 }
@@ -2540,26 +2458,7 @@ body::-webkit-scrollbar-track {
 	color: #dc3232;
 	white-space: nowrap;
 }
-.checkout_wrapper .woocommerce-billing-fields__field-wrapper .form-row input::placeholder {
-	color:#9A9A9A;
-}
 
-
-.checkout_wrapper .woocommerce-additional-fields__field-wrapper textarea {
-	border-radius:0;
-	border: 1px solid #355D49;
-	padding:14px 22px;
-	outline:0;
-}
-.checkout_wrapper .woocommerce-additional-fields__field-wrapper textarea::placeholder {
-	font-size:14px;
-	color:#9A9A9A;
-}
-.checkout_wrapper .woocommerce-additional-fields__field-wrapper textarea {
-	width:100%;
-	height: 80px;
-	resize: none;
-}
 #billing_city_field .required {
 	display:none;
 }
@@ -2793,20 +2692,6 @@ body::-webkit-scrollbar-track {
 .about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form p span {
 	display: flex;
 }
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input,
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input:focus,
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input:active,
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form textarea,
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form textarea:focus,
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form textarea:active {
-	width:100%;
-	border-radius: 0;
-	padding:14px 22px;
-	background: none;
-	font-size:14px;
-	border:1px solid #355D49;
-	outline: none;
-}
 .about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input + span,
 .about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form textarea + span {
 	position:absolute;
@@ -2820,9 +2705,6 @@ body::-webkit-scrollbar-track {
 .about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form textarea {
 	height:80px;
 	resize: none;
-}
-.about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input::placeholder {
-	color:#9A9A9A;
 }
 .about_us_wrapper .about_us_feedback .feedback_wrapper .feedback_form input[type="submit"] {
 	background: #355D49;

@@ -1,6 +1,18 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @mixin custom-scroll(
-  $track-color: var(--border-color),
-  $thumb-color: var(--secondary-color),
+  $track-color: transparent,
+  $thumb-color: gray,
   $width: 4px,
 ) {
   overflow-y: auto;
