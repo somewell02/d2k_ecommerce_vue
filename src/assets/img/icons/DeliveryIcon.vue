@@ -30,7 +30,6 @@ export default {
     width: 22px;
     height: 22px;
 }
-
 .fill svg * {
     fill: black;
 }

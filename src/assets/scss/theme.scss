@@ -44,3 +44,11 @@ textarea {
   width: 100%;
   resize: none;
 }
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  color: var(--text-color);
+}

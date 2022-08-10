@@ -4,5 +4,20 @@
 @import "./breakpoints";
 
 .container {
+  width:100%;
+  max-width:1320px;
+  margin:0 auto;
+}
+.big_container {
+  max-width:none;
+  padding:0 60px;
+}
 
+body {
+  overflow-x:hidden;
+  width:100vw;
+  @include custom-scroll;
+}
+body.v-hidden {
+  overflow: hidden;
 }

@@ -1,9 +1,9 @@
 <template>
     <main>
-        <filled-button>Hello</filled-button>
+        <filled-button> Hello </filled-button>
         <filled-button color="accent">Hello</filled-button>
         <gray-icon-button>
-            <delivery-icon/>
+            <metro-icon/>
             Доставка и возврат
         </gray-icon-button>
     </main>
@@ -12,7 +12,7 @@
 <script>
 import FilledButton from "@/components/buttons/FilledButton";
 import GrayIconButton from "@/components/buttons/GrayIconButton";
-import DeliveryIcon from "@/assets/img/icons/DeliveryIcon";
+import MetroIcon from "@/assets/img/icons/MetroIcon";
 
 export default {
     name: "MainView",
@@ -21,6 +21,7 @@ export default {
             qwe: "",
         }
     },
-    components: {GrayIconButton, FilledButton, DeliveryIcon},
+    components: {MetroIcon, GrayIconButton, FilledButton},
+
 }
 </script>
